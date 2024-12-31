@@ -1,0 +1,6 @@
+sqlalchemy
+alembic
+psycopg2
+fastapi[standart]
+fastapi-responses
+sqlmodel

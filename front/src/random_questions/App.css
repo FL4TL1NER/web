@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.App .app_name {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.RandomAnswersElement {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.QuestionAnswer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.question {
+    font-size: 18px;
+    min-width: 60ch;
+    min-height: 2cap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.checkAnswer {
+    display: flex;
+    align-items: center;
+}
+
+.checkAnswer input {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #2AB3FA;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2A30FA;
+}
+
+.checkAnswer strong {
+    font-size: 18px;
+    margin-left: 10px;
+}
