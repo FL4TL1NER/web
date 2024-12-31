@@ -1,0 +1,50 @@
+body {
+	background-color: #F40090;
+}
+
+p {
+	color: black
+}
+
+.box {
+	margin: auto;
+	background-color: #F5D500;
+	width: 50%;
+	height: 100%;
+}
+
+.box .form {
+	margin: auto;
+	width: 75%;
+	padding: 5em 0em 0em 0em;
+}
+.box .separator {
+	margin: auto;
+	width: 75%;
+	padding: 5em 0em 0em 0em;
+}
+.box .results {
+	margin: auto;
+	width: 75%;
+	background-color: white;
+}
+
+.form_element {
+	padding: 5px 5px 5px 5px;
+	margin: 0 0;
+	height: 3em;
+	width: 60%;
+	background-color: white;
+}
+
+.form_element:hover {
+	background-color: #00E1F5;
+}
+
+.form_element .spinbox {
+	
+}
+
+.form_element .button {
+	
+}
