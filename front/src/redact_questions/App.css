@@ -1,0 +1,111 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.App {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    max-height: 100%;
+    min-height: 100%;
+    margin: 0;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75vw;
+    box-sizing: border-box;
+}
+
+select {
+    width: 200px;
+    padding: 8px;
+    margin: 0 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+input {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+button {
+    background-color: #2AB3FA;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2A30FA;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.tableNumber {
+    text-align: right;
+    padding-right: 20px;
+    width: 3ch;
+}
+  
+.tableText {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 26ch;
+}
+  
+.tableButton {
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 10ch;
+}
+
+select {
+    background-color: #2AB3FA;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+  
+select:hover {
+    background-color: #2A30FA;
+}
